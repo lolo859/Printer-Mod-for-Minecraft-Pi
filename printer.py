@@ -64,6 +64,12 @@ def k(x,y,z,block):
 def l(x,y,z,block):
     mc.setBlocks(x,y-1,z,x,y-6,z,block)
     mc.setBlock(x+1,y-7,z,block)
+def m(x,y,z,block):
+    mc.setBlocks(x,y-1,z,x,y-5,z,block)
+    mc.setBlocks(x+4,y-2,z,x+4,y-5,z,block)
+    mc.setBlock(x+1,y-1,z,block)
+    mc.setBlock(x+2,y-2,z,block)
+    mc.setBlock(x+3,y-1,z,block)
 a(x,y,z,57)
 b(x+6,y+2,z,57)
 c(x+12,y,z,57)
@@ -76,3 +82,4 @@ i(x+47,y+1,z,57)
 j(x+49,y+1,z,57)
 k(x+55,y+1,z,57)
 l(x+60,y+1,z,57)
+m(x+63,y-1,z,57)
